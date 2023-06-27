@@ -2,7 +2,6 @@ import { useState } from 'react';
 import EventCard from '../event-cards/EventCard';
 import './events-list.css';
 
-console.log(new Date());
 const events = [
   {
     id: 1,
