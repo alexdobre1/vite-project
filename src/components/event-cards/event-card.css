@@ -43,7 +43,6 @@
 .date {
   border-radius: 25px;
   background-color: #cbc9ff;
-
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -73,5 +72,18 @@ button {
       rgba(204, 164, 255, 0) 100%
     );
     box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.1);
+  }
+  .large {
+    background: linear-gradient(
+      116deg,
+      rgba(189, 151, 247, 0.32) 0%,
+      rgba(189, 151, 247, 0) 100%
+    );
+  }
+  h4 {
+    color: #3e008c;
+  }
+  .details {
+    color: #3e008c;
   }
 }
