@@ -1,0 +1,32 @@
+.events-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+}
+.categories {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.category {
+  width: 100px;
+  height: 30px;
+  border-radius: 25px;
+  background: rgba(165, 132, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+}
+.active {
+  opacity: 1;
+}
+
+@media (prefers-color-scheme: light) {
+  .category {
+    background: rgba(204, 164, 255, 0.21);
+  }
+}
